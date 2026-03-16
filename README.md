@@ -84,14 +84,8 @@ Dataset:
 
 ### Exercise 4 – k-Nearest Neighbors (k-NN)
 
-This exercise implements the **k-Nearest Neighbors (k-NN)** algorithm on the `two_circle` dataset.
-
-The model is evaluated for different:
-- **k values:** 1, 3, 5, 7, 9  
-- **distance metrics:** \(L_1\), \(L_2\), and \(L_\infty\)
-
-For each configuration, the dataset is randomly split into **training and testing sets**, the classifier is trained, and the **empirical and true errors** are computed.  
-The experiment is repeated **100 times** and the average errors are reported.
+Implementation of the **k-NN algorithm** on the `two_circle` dataset.  
+The model is evaluated using **different k values** and **different distance metrics ($L_p$ norms)**.
 
 📄 [Assignment Description: hw4 2022.pdf](./Ex4/hw4%202022.pdf)
 
@@ -112,8 +106,37 @@ Code:
 Dataset:  
 [two_circle.txt](./Ex4/two_circle.txt)
 
-
 --- 
+
+### Final Project – Image Classification
+
+This project explores whether machine learning algorithms can **classify images without explicit preprocessing**.
+
+Feature representations are extracted using two approaches:
+- **Auto-Encoder**
+- **PCA (Principal Component Analysis)**
+
+The extracted features are used as input to several classification methods:
+- KNN
+- SVM
+- Logistic Regression
+- Neural Network (NN)
+- Convolutional Neural Network (CNN)
+
+Dataset:
+- **MNIST Digit**
+
+The project compares the classification performance of **Auto-Encoder-based features** and **PCA-reduced representations**.
+
+#### Files
+
+Notebook:  
+[Final_Project_Machin_Learning.ipynb](./Final%20Project/Final_Project_Machin_Learning.ipynb)
+
+Project Proposal:  
+[Final Project Research Proposal.pdf](./Final%20Project/Final%20Project%20Project%20Research%20Proposal.pdf)
+
+---
 
 ## _Including_
 
