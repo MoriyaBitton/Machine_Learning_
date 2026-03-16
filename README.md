@@ -61,7 +61,11 @@ This exercise implements two classical machine learning algorithms on synthetic 
 Implementation of the **Perceptron algorithm** on the `two_circle` dataset (150 points).  
 The model learns a linear classifier by updating weights when misclassifications occur.
 
-Code: [Perceptron.py](./Perceptron.py)
+Code:  
+[Perceptron.py](./Ex3/Perceptron.py)
+
+Dataset:  
+[two_circle.txt](./Ex3/data/two_circle.txt)
 
 ---
 
@@ -69,14 +73,18 @@ Code: [Perceptron.py](./Perceptron.py)
 Implementation of **AdaBoost** on the `four_circle` dataset.  
 The hypothesis space consists of **all lines defined by pairs of training points**, from which the algorithm selects the most informative weak classifiers.
 
-Code: [Adaboost.py](./Adaboost.py)
+Code:  
+[Adaboost.py](./Ex3/Adaboost.py)
+
+Dataset:  
+[four_circle.txt](./Ex3/data/four_circle.txt)
 
 ---
 
 #### Assignment Description
 Full assignment instructions:
 
-📄 [Ex3-2022.pdf](./Ex3-2022.pdf)
+📄 [Ex3 - 2022.pdf](./Ex3/Ex3-%202022.pdf)
 
 --- 
 
