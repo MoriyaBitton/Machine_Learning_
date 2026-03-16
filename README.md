@@ -57,7 +57,7 @@ Machine_Learning_
 
 This exercise implements two classical machine learning algorithms on synthetic circular datasets.
 
-📄 [Assignment Description: Ex3 - 2022.pdf](./Ex3/Ex3-%202022.pdf)
+📄 [Assignment Description: Ex3.pdf](./Ex3/Ex3-%202022.pdf)
 
 #### Perceptron
 Implementation of the **Perceptron algorithm** on the `two_circle` dataset (150 points).  
@@ -87,7 +87,7 @@ Dataset:
 Implementation of the **k-NN algorithm** on the `two_circle` dataset.  
 The model is evaluated using **different k values** and **different distance metrics ($L_p$ norms)**.
 
-📄 [Assignment Description: hw4 2022.pdf](./Ex4/hw4%202022.pdf)
+📄 [Assignment Description: Ex4](./Ex4/hw4%202022.pdf)
 
 #### Results
 
@@ -131,10 +131,10 @@ The project compares the classification performance of **Auto-Encoder-based feat
 #### Files
 
 Notebook:  
-[Final_Project_Machin_Learning.ipynb](./Final%20Project/Final_Project_Machin_Learning.ipynb)
+[Final Project Machin Learning](./Final%20Project/Final_Project_Machin_Learning.ipynb)
 
 Project Proposal:  
-[Final Project Research Proposal.pdf](./Final%20Project/Final%20Project%20Project%20Research%20Proposal.pdf)
+[Final Project Research Proposal](./Final%20Project/Final%20Project%20Project%20Research%20Proposal.pdf)
 
 ---
 
