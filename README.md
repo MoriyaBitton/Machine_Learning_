@@ -51,6 +51,34 @@ Machine_Learning_
 ```
 
 ---
+## Exercises Overview
+
+### Exercise 3 – Perceptron & AdaBoost
+
+This exercise implements two classical machine learning algorithms on synthetic circular datasets.
+
+#### Perceptron
+Implementation of the **Perceptron algorithm** on the `two_circle` dataset (150 points).  
+The model learns a linear classifier by updating weights when misclassifications occur.
+
+Code: [Perceptron.py](./Perceptron.py)
+
+---
+
+#### AdaBoost
+Implementation of **AdaBoost** on the `four_circle` dataset.  
+The hypothesis space consists of **all lines defined by pairs of training points**, from which the algorithm selects the most informative weak classifiers.
+
+Code: [Adaboost.py](./Adaboost.py)
+
+---
+
+#### Assignment Description
+Full assignment instructions:
+
+📄 [Ex3-2022.pdf](./Ex3-2022.pdf)
+
+--- 
 
 ## _Including_
 
