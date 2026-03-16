@@ -97,14 +97,11 @@ The experiment is repeated **100 times** and the average errors are reported.
 
 #### Results
 
-Empirical Error  
-![Empirical Error](./Ex4/outputs/Empirical%20Error.png)
-
-True Error  
-![Error](./Ex4/outputs/Error.png)
-
-Total Error  
-![Total Error](./Ex4/outputs/Total%20Error.png)
+<p align="center">
+  <img src="./Ex4/outputs/Empirical%20Error.png" width="32%">
+  <img src="./Ex4/outputs/Error.png" width="32%">
+  <img src="./Ex4/outputs/Total%20Error.png" width="32%">
+</p>
 
 #### Files
 
