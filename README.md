@@ -57,6 +57,8 @@ Machine_Learning_
 
 This exercise implements two classical machine learning algorithms on synthetic circular datasets.
 
+📄 [Assignment Description: Ex3 - 2022.pdf](./Ex3/Ex3-%202022.pdf)
+
 #### Perceptron
 Implementation of the **Perceptron algorithm** on the `two_circle` dataset (150 points).  
 The model learns a linear classifier by updating weights when misclassifications occur.
@@ -66,8 +68,6 @@ Code:
 
 Dataset:  
 [two_circle.txt](./Ex3/data/two_circle.txt)
-
----
 
 #### AdaBoost
 Implementation of **AdaBoost** on the `four_circle` dataset.  
@@ -79,12 +79,42 @@ Code:
 Dataset:  
 [four_circle.txt](./Ex3/data/four_circle.txt)
 
+
 ---
 
-#### Assignment Description
-Full assignment instructions:
+### Exercise 4 – k-Nearest Neighbors (k-NN)
 
-📄 [Ex3 - 2022.pdf](./Ex3/Ex3-%202022.pdf)
+This exercise implements the **k-Nearest Neighbors (k-NN)** algorithm on the `two_circle` dataset.
+
+The model is evaluated for different:
+- **k values:** 1, 3, 5, 7, 9  
+- **distance metrics:** \(L_1\), \(L_2\), and \(L_\infty\)
+
+For each configuration, the dataset is randomly split into **training and testing sets**, the classifier is trained, and the **empirical and true errors** are computed.  
+The experiment is repeated **100 times** and the average errors are reported.
+
+📄 [Assignment Description: hw4 2022.pdf](./Ex4/hw4%202022.pdf)
+
+#### Results
+
+Empirical Error  
+![Empirical Error](./Ex4/outputs/Empirical%20Error.png)
+
+True Error  
+![Error](./Ex4/outputs/Error.png)
+
+Total Error  
+![Total Error](./Ex4/outputs/Total%20Error.png)
+
+#### Files
+
+Code:  
+[Knn.py](./Ex4/Knn.py)  
+[main.py](./Ex4/main.py)
+
+Dataset:  
+[two_circle.txt](./Ex4/two_circle.txt)
+
 
 --- 
 
